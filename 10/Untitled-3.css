@@ -1,0 +1,46 @@
+.block{
+width: 50px;
+height: 50px;
+background: blue;
+animation-name: move;
+animation-timing-function: linear;
+animation-delay: 0.5s;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+margin: 100px auto;
+}
+
+@keyframes move{
+    0%{
+        box-shadow: 3px 10px 7px grey;
+    }
+    50%{
+        transform: scale(2);
+        box-shadow: 3px 20px 15px grey;
+    }
+    100%{
+        box-shadow: 3px 10px 7px grey;
+    }
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+    background: black;
+    border: 5px outset white;
+    margin: 80px auto;
+    text-align: center;
+    color: beige;
+    line-height: 50px
+}
+
+.button:hover{
+    width: 100px;
+    height: 50px;
+    background: white;
+    border: 5px outset black;
+    margin: 80px auto;
+    text-align: center;
+    color: black;
+    line-height: 50px
+}
