@@ -32,12 +32,13 @@ background: url(images/111.jpg)
 
 .banner-header{
     text-align: center;
-    }
+}
 
 .container{
 max-width: 1140px;
 padding: 0 15px;
 margin: 0 auto;
+align-items: center;
 }
 
 *{
@@ -46,20 +47,25 @@ margin: 0 auto;
 }
 
 .main{
-background: url(images/11.jpg);
+    height: 100vh;
+    background-size: cover;
+    background: url(images/11.jpg);
 }
 
 .icons{
-margin-left: 84%; 
-    
+    margin-left: 84%; 
+    display: flex;
+    flex-direction: row;
 }
 
 .patent{
     color: white;
-    margin-top: 422 px;
+    margin-top: 440 px;
 }
 
 .footer{
-background: rgba(0, 0, 0, 0.637);
-margin-top: 75%;
+background: rgba(0, 0, 0, 0.671);
+margin-top: 55%;
+height: 150px;
+width: 100%;
 }
