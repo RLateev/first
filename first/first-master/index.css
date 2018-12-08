@@ -1,0 +1,65 @@
+.header{
+position: fixed;
+background: rgb(194, 140, 60);
+top: 0;
+left: 0;
+right: 0;
+z-index: 100;
+padding: 10px 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.menu-nav-element{
+    list-style: none;
+    display: inline-block;
+} 
+
+div.menu{display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner{
+margin-top: 80px;
+}
+
+.section-banner{
+background: url(images/111.jpg)
+
+}
+
+.banner-header{
+    text-align: center;
+    }
+
+.container{
+max-width: 1140px;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+*{
+    padding:0;
+    margin:0; 
+}
+
+.main{
+background: url(images/11.jpg);
+}
+
+.icons{
+margin-left: 84%; 
+    
+}
+
+.patent{
+    color: white;
+    margin-top: 422 px;
+}
+
+.footer{
+background: rgba(0, 0, 0, 0.637);
+margin-top: 75%;
+}
